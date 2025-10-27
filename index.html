@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">DEEVI SRI SOWMYA</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm  SRI SOWMYA</h1>
+      <p>A passionate and dedicated software professional with a strong foundation in both front-end and back-end development. Skilled in designing, developing user-focused applications, I aspire to begin my career in a dynamic organization where I can contribute to impactful projects, enhance my technical skills, and grow as a versatile developer and engineer.</p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary" onclick="location.href='#projects'">View My Work</button>
+        <button class="btn btn-secondary" onclick="location.href='#contact'">Contact Me</button>
+      </div>
+    </div>
+  </header>
+
+ <!-- About Section -->
+    <section id="about" class="about">
+    <div class="container about-container">
+        <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+            A motivated and detail-oriented Java Full Stack Developer with a solid foundation in Core Java, Spring Boot, HTML, CSS, JavaScript, React, and MySQL. Skilled in building responsive web applications with clean architecture and efficient backend systems.
+        </p>
+        <p>
+            Passionate about learning new technologies, solving real-world problems through code, and contributing to innovative software solutions. Seeking an opportunity to start my career in a dynamic organization where I can grow and make meaningful technical contributions.
+        </p>
+    </div>
+    <div class="about-image">
+      <img src="../project/images/PHOTO ID 2.jpg" alt="Profile Picture">
+    </div>
+    <a href="../project/srisowmya.pdf" download class="resume-btn">Download Resume</a>
+
+    </div>
+    </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2 id="text1">Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="../project/images/project1.png" alt="project1">
+        <h3>Breast Cancer Classification Using Deep Learing</h3>
+        <p>Built a CNN/DenseNet model using TensorFlow and Keras for breast cancer classification, achieving 95%+ accuracy with transfer learning and Grad-CAM visualizations.</p>
+        <div class="tags">
+          <span>Python WebDevelopment</span>
+        </div>
+        <div class="actions">
+          <a href="#" class="btn small primary">Live Demo</a>
+          <a href="#" class="btn small secondary">Code</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="../project/images/project2.png" alt="Student Report Card System">
+        <h3>Student Report Card System</h3>
+        <p>Developed a Java console application for generating student report cards using OOP principles, demonstrating proficiency in classes, objects, encapsulation, and abstraction.</p>
+        <div class="tags">
+          <span>Java(oops)</span>
+        </div>
+        <div class="actions">
+          <a href="#" class="btn small primary">Live Demo</a>
+          <a href="#" class="btn small secondary">Code</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="../project/images/project3.png" alt="project3">
+        <h3>My Portfolio</h3>
+        <p>Developed a responsive portfolio website using HTML, CSS, and JavaScript to showcase projects and skills, featuring clean UI/UX design, GitHub integration, and global deployment.</p>
+        <div class="tags">
+          <span>HTML,</span><span>  CSS,</span><span>  JavaScript</span>
+        </div>
+        <div class="actions">
+          <a href="#" class="btn small primary">Live Demo</a>
+          <a href="#" class="btn small secondary">Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2 id="text_container">Skills & Expertise</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><h3 id="skill_text">Frontend</h3><p id="skill_para">HTML5, CSS3, JavaScript</p></div>
+      <div class="skill-card"><h3 id="skill_text">Backend</h3><p id="skill_para">JAVA, OOPS-Pillers, JAVA LIBRARIES, CORE JAVA, ADVANCE JAVA</p></div>
+      <div class="skill-card"><h3 id="skill_text">Database</h3><p id="skill_para">My SQL, ORACLE</p></div>
+      <div class="skill-card"><h3 id="skill_text">Tools</h3><p id="skill_para">Git, VS-CODE, Eclipse</p></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Let's Connect</h2>
+    <div class="icons">
+      <div class="icon-card email">
+       <img src="../project/images/email.png" alt="email" class="img">
+        <p>srisowmyadeevi606@gmail.com</p>
+      </div>
+      <div class="icon-card linkedin">
+        <img src="../project/images/linkedin.png" alt="phone" class="img">
+        <p>https://www.linkedin.com/in/sri-sowmya-deevi-215b61269</p>
+      </div>
+      <div class="icon-card phone">
+        <img src="../project/images/phone.png" alt="phone_icon" class="img">
+        <p>8919836951</p>
+      </div>
+      <div class="icon-card hackerrank">
+        <img src="../project/images/hackerrank.png" alt="hackerrank_icon" class="img">
+        <p>https://www.hackerrank.com/profile/21KN1A4234</p>
+      </div>
+    </div>
+
+    <p class="quote">“Every connection is a seed — let's grow stories together 🌱”</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <center>
+      <p class = "para">© 2025 SRI SOWMYA. All rights reserved.</p>
+    </center>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
